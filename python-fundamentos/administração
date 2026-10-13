@@ -1,0 +1,13 @@
+Laboratório de Administração Linux — Nginx
+
+Objetivo: diagnosticar e restaurar um serviço web em ambiente Linux.
+
+Atividades realizadas:
+
+- Consultei o estado do serviço com "systemctl".
+- Validei a configuração com "nginx -t".
+- Iniciei o serviço utilizando "systemctl start nginx".
+- Verifiquei a resposta HTTP local com "curl -I http://localhost".
+- Confirmei o retorno HTTP "200 OK".
+
+Resultado: o Nginx passou de inativo para em execução e respondeu com sucesso à requisição HTTP local.
